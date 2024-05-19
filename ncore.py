@@ -1,5 +1,5 @@
 # VERSION: 1.3
-# AUTHORS: Derzsi Dániel (daniel@tohka.us)
+# AUTHORS: Derzsi DÃ¡niel (daniel@tohka.us)
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -53,10 +53,10 @@ class ncore(object):
     password = 'V!ru5g4zd4'
 
     passhash = '4821f07bbeb8afd77c83fe9dc0ef200427066887'
-#    twofactorcode = 'enter_code'
+    twofactorcode = 'enter_code'
 
- #   cookie_path = 'cookies.txt'
- #   allowed_cookies = ['nick', 'pass', 'stilus', 'nyelv']
+  cookie_path = 'cookies.txt'
+    allowed_cookies = ['nick', 'pass', 'stilus', 'nyelv']
 
     MAX_PAGE_NUMBER = 10
 
