@@ -55,7 +55,7 @@ class ncore(object):
     passhash = '4821f07bbeb8afd77c83fe9dc0ef200427066887'
     twofactorcode = 'enter_code'
 
-   cookie_path = 'cookies.txt'
+    cookie_path = 'cookies.txt'
     allowed_cookies = ['nick', 'pass', 'stilus', 'nyelv']
 
     MAX_PAGE_NUMBER = 10
