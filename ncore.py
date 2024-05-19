@@ -53,15 +53,14 @@ class ncore(object):
     password = 'v!ru5g4zd4'
 
     passhash = '4821f07bbeb8afd77c83fe9dc0ef200427066887'
-    twofactorcode = 'enter_code'
-
+    
     cookie_path = 'cookies.txt'
     allowed_cookies = ['nick', 'pass', 'stilus', 'nyelv']
 
     MAX_PAGE_NUMBER = 10
 
     # Internal values
-    login_data = {'nev': username, 'pass': password, '2factor': twofactorcode,
+    login_data = {'nev': username, 'pass': password, 
                   'set_lang': 'hu', 'submitted': '1', 'ne_leptessen_ki': '1'}
     session_cookie = 'PHPSESSID'
     url = 'https://ncore.pro'
